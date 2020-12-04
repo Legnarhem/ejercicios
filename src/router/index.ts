@@ -10,6 +10,7 @@ const routes: Array<RouteConfig> = [
     name: 'people',
     component: PeopleList
   },
+
 ]
 
 const router = new VueRouter({
