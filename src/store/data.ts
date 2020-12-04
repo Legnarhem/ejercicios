@@ -2,6 +2,7 @@ import { Module, VuexModule, Mutation } from 'vuex-module-decorators'
 import Store from './index';
 
 @Module({
+    dynamic: true,
     store: Store,
     name: 'dataStore'
 })
